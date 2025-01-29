@@ -21,7 +21,7 @@ jobs:
           ndk-version: r26d
 
       - name: Build project
-        run: ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk NDK_APPLICATION_MK=./Application.mk
+        run: ndk-build
 
       - name: Rename build artifacts
         run: |
